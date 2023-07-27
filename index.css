@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}
+.right-side{
+    height: 100%;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #7aa8f1;
+    color: white;
+}
+.user{
+    align-items: center;
+    margin: 20px 0;
+    display: flex;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+h2{
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: 10vh;
+    font-weight: bolder;
+    font-size: 200%;
+}
+p{
+    margin-bottom: 10%;
+    margin-left: 10%;
+    font-size: 150%;
+    font-weight: normal;
+    justify-items: center;
+    font-style: inherit;
+}
+h1{
+    font-style: italic;
+    font-size: 300%;
+    margin-left: 10%;
+    font-weight: lighter;
+}
+h3{
+    margin-bottom:2%;
+    margin-left: 0%;
+    font-size: 200%;
+    font-weight: normal;
+    justify-items: center;
+    font-style: inherit;
+    align-items: center;
+}
+.login{
+    margin-top: 11%;
+    margin-left: 10%;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+.portal{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small
+}
+.remember{
+    padding: 20px;
+}
+.password{
+    margin-bottom: 0%;
+    padding: 5px;
+    border-color: darkgrey;
+    width: 130%;
+}
+.name{
+    margin-bottom: 0%;
+    padding: 5px;
+    border-color: darkgrey;
+    width: 130%;
+}
+.remember{
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    margin-bottom: 50vh;
+}
+.forget{
+    color: blue;
+    padding-left: 50px;
+}
+.log{
+    margin-left: 40%;
+    margin-top: 10%;
+    font-size: 130%;
+    padding: 5px;
+    margin-bottom: auto;
+    background: rgb(53, 53, 241);
+    color: whitesmoke;
+    width: 50%;
+    border-color: white;
+    border-left: 20%;
+    border-style: hidden;
+}
+.help{
+    margin-left: 40%;
+    margin-top: 5%;
+    font-size: 130%;
+    padding: 5px;
+    margin-bottom: auto;
+    background: rgb(53, 53, 241);
+    color: whitesmoke;
+    width: 50%;
+    border-color: white;
+    border-left: 20%;
+    border-style: hidden;
+}
